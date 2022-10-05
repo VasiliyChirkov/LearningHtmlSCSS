@@ -1,0 +1,38 @@
+@media (max-width: 1024px) {
+
+   .center {
+      padding-left: calc(50% - 786px/2);
+      padding-right: calc(50% - 786px/2);
+   }
+
+   .for-item {
+      height: 250px;
+   }
+
+   .product-content {
+      column-gap: 0px;
+      row-gap: 0px;
+   }
+
+   .footer__logo {
+      display: none;
+   }
+
+   .footer-form {
+      flex-wrap: wrap;
+   }
+
+   .basket {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between
+   }
+}
+
+@media (max-width: 833px) {
+
+   .center {
+      padding-left: 24px;
+      padding-right: 24px;
+   }
+}
